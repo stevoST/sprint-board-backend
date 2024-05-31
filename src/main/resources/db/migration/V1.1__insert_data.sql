@@ -1,3 +1,15 @@
 INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('OPEN' , 'Some random idea');
 INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('OPEN' , 'Intellij idea');
 INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('OPEN' , 'Not a great idea');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('READY' , 'Refined story');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('READY' , 'Intellij refined story');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('READY' , 'Ultra turbo refined story');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('IMPLEMENTATION' , 'Get to work');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('IMPLEMENTATION' , 'Pick up groceries');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('IMPLEMENTATION' , 'Go home');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('IMPLEMENTATION' , 'Fall asleep');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('DONE' , 'Get up');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('DONE' , 'Brush teeth');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('DONE' , 'Take a shower');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('DONE' , 'Check e-mail');
+INSERT INTO `sprintboard`.`stories` (`story_state`,`title`) VALUES ('DONE' , 'Walk dog');
