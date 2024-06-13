@@ -3,9 +3,7 @@ package com.homeproject.sprintboardbackend.controller;
 
 import com.homeproject.sprintboardbackend.model.Story;
 import com.homeproject.sprintboardbackend.service.BoardService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,5 +20,10 @@ public class BoardController {
     @GetMapping("/stories")
     public List<Story> getAllStories(){
         return boardService.getAllStories();
+    }
+
+    @PostMapping("/story")
+    public void updateStory(@RequestBody final Story story){
+        boardService.updateStory(story);
     }
 }

@@ -18,4 +18,8 @@ public class BoardService {
     public List<Story> getAllStories(){
         return boardRepository.findAll();
     }
+
+    public void updateStory(final Story story){
+        boardRepository.save(story);
+    }
 }
